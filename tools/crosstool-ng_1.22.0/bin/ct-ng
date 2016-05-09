@@ -16,8 +16,8 @@ export CT_TOP_DIR:=$(shell pwd)
 
 # Paths and values set by ./configure
 # Don't bother to change it other than with a new ./configure!
-export CT_LIB_DIR:=/home/rogerio/bin/crosstool-ng/lib/crosstool-ng-1.22.0
-export CT_DOC_DIR:=/home/rogerio/bin/crosstool-ng/share/doc/crosstool-ng/crosstool-ng-1.22.0
+export CT_LIB_DIR:=/home/rogerio/bin/leel-toolchain/tools/crosstool-ng_1.22.0/lib/crosstool-ng-1.22.0
+export CT_DOC_DIR:=/home/rogerio/bin/leel-toolchain/tools/crosstool-ng_1.22.0/share/doc/crosstool-ng/crosstool-ng-1.22.0
 
 # This is crosstool-NG version string
 export CT_VERSION:=crosstool-ng-1.22.0
@@ -94,7 +94,7 @@ help-distrib::
 
 help-env::
 	@echo
-	@echo  'Environment variables (see /home/rogerio/bin/crosstool-ng/share/doc/crosstool-ng/crosstool-ng-1.22.0/0 - Table of content.txt):'
+	@echo  'Environment variables (see /home/rogerio/bin/leel-toolchain/tools/crosstool-ng_1.22.0/share/doc/crosstool-ng/crosstool-ng-1.22.0/0 - Table of content.txt):'
 
 help-tail::
 	@echo
